@@ -1,0 +1,23 @@
+{
+  "name": "fannypack-svgsprite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke@lukeed.com",
+    "url": "http://www.lukeed.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukeed/fannypack-svgsprite.git"
+  },
+  "keywords": ["gulp", "svg sprite", "generate svg sprite", "fannypack", "webpack"],
+  "dependencies": {
+    "gulp-imagemin": "^2.3.0",
+    "gulp-svgstore": "^5.0.3"
+  }
+}
