@@ -5,7 +5,7 @@ var $         = Fannypack.$
 var imagemin    = require('gulp-imagemin')
 var svgstore    = require('gulp-svgstore')
 
-module.exports = function(config){
+Fannypack.Tasks['svgSprite'] = function(config){
   if(!config.svgSprite) return
 
   gulp.task('svgSprite', function() {
